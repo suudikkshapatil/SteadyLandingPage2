@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1092826646815221');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1092826646815221&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>Steady — Your Anxiety Buddy | Calm down in minutes</title>
+<meta name="description" content="Steady is a pocket anxiety buddy. Tell it what you're feeling, and it stays with you until your heart actually feels steady again.">
+<meta property="og:title" content="Steady — Your Anxiety Buddy">
+<meta property="og:description" content="When your heart races, you won't be alone anymore.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#23342A;
+  --ink-soft:#4A5B50;
+  --sage:#7C9885;
+  --sage-deep:#43604C;
+  --mist:#E4EDE5;
+  --cream:#FBF8F1;
+  --gold:#C0982B;
+  --gold-soft:#F0E4C0;
+  --line:rgba(35,52,42,.14);
+  --shadow:0 2px 14px rgba(35,52,42,.07);
+  --shadow-lg:0 12px 40px rgba(35,52,42,.13);
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:light}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--cream);
+  color:var(--ink);
+  font-family:'Manrope',system-ui,-apple-system,sans-serif;
+  font-size:17px;line-height:1.65;
+  padding-bottom:76px;
+  overflow-x:hidden;
+}
+h1,h2,h3,.display{font-family:'Manrope',sans-serif;font-weight:800;line-height:1.12;letter-spacing:-.02em}
+.wrap{width:100%;max-width:760px;margin:0 auto;padding:0 22px}
+.wrap-wide{width:100%;max-width:1080px;margin:0 auto;padding:0 22px}
+section{padding:24px 0}
+.eyebrow{
+  font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--sage-deep);margin-bottom:8px;
+}
+h2{font-size:clamp(26px,5.4vw,38px);margin-bottom:8px;font-weight:800}
+.highlight-gold{color:var(--gold)}
+.lede{color:var(--ink-soft);font-size:18px;margin-bottom:16px;max-width:640px}
+p+p{margin-top:16px}
+strong{font-weight:700}
+/* ---------- NAV ---------- */
+.nav{
+  display:flex;align-items:center;justify-content:space-between;
+  max-width:1080px;margin:0 auto;padding:16px 22px;
+}
+.logo{font-weight:800;font-size:21px;letter-spacing:-.02em}
+.logo span{color:var(--sage)}
+.nav-tag{font-size:12px;color:var(--ink-soft);font-weight:700}
+
+/* ---------- HERO ---------- */
+.hero{
+  background:linear-gradient(175deg,var(--mist) 0%,var(--cream) 88%);
+  padding:56px 0 46px;text-align:center;position:relative;overflow:hidden;
+}
+.hero::after{
+  content:"";position:absolute;left:50%;top:-160px;transform:translateX(-50%);
+  width:640px;height:640px;border-radius:50%;
+  background:radial-gradient(circle,rgba(124,152,133,.20) 0%,transparent 66%);
+  pointer-events:none;
+}
+.hero .wrap{position:relative;z-index:1}
+h1{font-size:clamp(32px,7vw,50px);margin-bottom:18px;letter-spacing:-.03em;font-weight:800}
+h1 em{font-style:normal;color:var(--sage-deep)}
+.sub{font-size:19px;color:var(--ink-soft);max-width:560px;margin:0 auto 10px}
+.hinglish{
+  font-style:italic;font-weight:600;font-size:16.5px;
+  color:var(--sage-deep);margin-bottom:8px;
+}
+.scroll-cue{
+  display:inline-flex;align-items:center;gap:8px;margin-top:24px;
+  color:var(--sage-deep);font-weight:700;font-size:15px;text-decoration:none;
+  border-bottom:2px solid var(--sage);padding-bottom:3px;
+}
+.scroll-cue:hover{color:var(--ink)}
+.trustrow{
+  display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center;
+  margin-top:26px;font-size:13.5px;color:var(--ink-soft);font-weight:700;
+}
+.trustrow span{display:flex;align-items:center;gap:6px}
+
+/* ---------- TAGLINE BANNER ---------- */
+.tagline-banner{
+  background:var(--sage-deep);color:#fff;text-align:center;padding:40px 0;
+}
+.tagline-banner p{
+  font-size:clamp(18px,3.4vw,24px);font-weight:700;line-height:1.4;
+  max-width:660px;margin:0 auto;font-style:italic;letter-spacing:-.01em;
+}
+.tagline-banner .tag-sub{
+  display:block;margin-top:12px;font-style:normal;font-size:15px;
+  font-weight:600;color:var(--gold-soft);letter-spacing:.02em;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn{
+  display:inline-block;background:var(--sage-deep);color:#fff;
+  font-weight:700;font-size:18px;
+  padding:17px 34px;border-radius:100px;text-decoration:none;
+  box-shadow:var(--shadow-lg);transition:transform .18s ease,background .18s ease;
+  border:none;cursor:pointer;
+}
+.btn:hover{background:#35503D;transform:translateY(-2px)}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.btn-note{display:block;font-size:13.5px;color:var(--ink-soft);margin-top:12px}
+.center{text-align:center}
+  
+/* ---------- SYMPTOM DEMO (5% bigger) ---------- */
+.demo{
+  background:#fff;border:1px solid var(--line);border-radius:21px;
+  padding:21px 17px;box-shadow:var(--shadow-lg);margin-top:6px;
+}
+.demo-label{font-size:13px;font-weight:800;color:var(--sage-deep);letter-spacing:.06em;margin-bottom:11px;text-transform:uppercase}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:15px}
+.chip{
+  border:1.5px solid var(--line);background:var(--cream);
+  padding:7px 15px;border-radius:100px;font-size:14px;font-weight:700;
+  color:var(--ink-soft);cursor:pointer;
+  transition:transform .15s ease,background .2s ease,color .2s ease,border-color .2s ease;
+}
+.chip:active{transform:scale(.94)}
+.chip.active{background:var(--sage-deep);border-color:var(--sage-deep);color:#fff;transform:scale(1.04)}
+.arrow-down{text-align:center;font-size:19px;color:var(--sage);margin:4px 0}
+.match-card{
+  background:var(--mist);border-radius:15px;padding:16px;
+  display:flex;gap:13px;align-items:center;
+  animation:match-pop .35s ease;
+}
+@keyframes match-pop{
+  0%{opacity:0;transform:translateY(6px) scale(.98)}
+  100%{opacity:1;transform:translateY(0) scale(1)}
+}
+.match-ico{
+  width:44px;height:44px;border-radius:50%;background:var(--sage-deep);
+  color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;
+  transition:transform .3s ease;
+}
+.match-card h4{font-size:17px;margin-bottom:1px;font-weight:600;color:var(--ink)}
+.match-card p{font-size:15px;color:var(--ink-soft);margin:0;line-height:1.35}
+  
+
+/* ---------- PROBLEM (condensed) ---------- */
+.problem, .dark-section{background:var(--ink);color:#E9EFE9}
+.problem h2, .dark-section h2{color:#fff}
+.problem .eyebrow, .dark-section .eyebrow{color:var(--sage)}
+.dark-section .lede{color:#B9C7BB}
+.pain{
+  border-left:2px solid var(--sage);padding:2px 0 2px 20px;
+  margin-bottom:18px;font-size:17px;color:#D3DED4;
+}
+.pain b{color:#fff;font-weight:700}
+
+/* ---------- TECHNIQUE DEEP DIVE ---------- */
+.techcard{
+  background:#fff;border:1px solid var(--line);border-radius:var(--r);
+  padding:26px;margin-bottom:16px;box-shadow:var(--shadow);
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.techcard:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.clinical-badge{
+  display:inline-block;background:var(--mist);color:var(--sage-deep);
+  font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  padding:4px 11px;border-radius:100px;margin-bottom:10px;
+}
+.techcard-head{display:flex;align-items:flex-start;gap:16px;margin-bottom:12px}
+.tech-ico{
+  width:52px;height:52px;border-radius:14px;background:var(--mist);
+  display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0;
+}
+.techcard h3{font-size:20px;margin-bottom:3px;font-weight:800;color:var(--ink)}
+.techcard .tsub{font-size:13.5px;color:var(--sage-deep);font-weight:800;letter-spacing:.03em}
+.techcard p{color:var(--ink-soft);font-size:16px}
+
+  /* guarantee*/
+
+  .guarantee {
+    text-align: center;
+    padding: 20px 16px;
+  }
+  .g-badge {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+  .guarantee h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+  .guarantee p {
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0;
+    opacity: 0.85;
+  }
+/* ---------- REPORT HIGHLIGHT ---------- */
+.report-hl{
+  background:#fff;border:2px solid var(--sage);border-radius:var(--r);
+  padding:30px;display:flex;gap:22px;align-items:center;flex-wrap:wrap;
+  box-shadow:var(--shadow-lg);
+}
+.report-ico{
+  width:70px;height:70px;border-radius:18px;background:var(--mist);
+  display:flex;align-items:center;justify-content:center;font-size:34px;flex-shrink:0;
+}
+.report-hl h3{font-size:22px;margin-bottom:6px;font-weight:800;color:var(--ink)}
+.report-hl p{color:var(--ink-soft);font-size:16px;margin:0}
+.report-hl .rtext{flex:1;min-width:240px}
+
+/* ---------- SCREENSHOT SHOWCASE ---------- */
+.screens-grid{display:grid;gap:16px;margin-top:8px}
+@media(min-width:700px){.screens-grid{grid-template-columns:1fr 1fr}}
+.screen-card{
+  background:#fff;border:1px solid var(--line);border-radius:20px;
+  overflow:hidden;box-shadow:var(--shadow-lg);
+  transition:transform .2s ease;
+}
+.screen-card:hover{transform:translateY(-4px)}
+.screen-card img{width:100%;display:block}
+.screen-card p{
+  padding:16px 18px;font-size:15px;font-weight:700;color:var(--ink);margin:0;
+}
+  
+/* ---------- BENEFITS (10% larger, gap between icon and text) ---------- */
+.benefits{background:var(--mist)}
+.benefit-hero-grid{display:grid;gap:14px}
+@media(min-width:700px){.benefit-hero-grid{grid-template-columns:1fr 1fr}}
+.benefit-hero{
+  background:var(--cream);border:2px solid var(--sage);border-radius:18px;
+  padding:24px;box-shadow:var(--shadow-lg);
+  transition:transform .2s ease;
+  display:flex;align-items:flex-start;gap:14px;
+}
+.benefit-hero:hover{transform:translateY(-4px) scale(1.015)}
+.bh-ico{font-size:30px;flex-shrink:0;margin-bottom:0}
+.benefit-hero h3{font-size:19px;font-weight:800;margin-bottom:6px;line-height:1.25;color:var(--ink)}
+.benefit-hero p{color:var(--ink-soft);font-size:14px;margin:0}
+  
+  /*---- Urgency (10% smaller) --- */
+  .box { text-align: center; }
+  .line1 {
+    color: #ff3b30;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    margin-bottom: 9px;
+    animation: pulse 1s infinite;
+  }
+  .line2 {
+    color: #3F4A33;
+    font-size: 31px;
+    font-weight: 900;
+  }
+  .line2 span { color: #ff3b30; }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+  }
+  
+/* ---------- FEATURE GRID ---------- */
+.feat-grid{display:grid;gap:14px}
+@media(min-width:760px){.feat-grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1020px){.feat-grid{grid-template-columns:1fr 1fr 1fr}}
+.feat{
+  border:1px solid var(--line);border-radius:16px;padding:20px;background:#fff;
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.feat:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.feat .fico{font-size:24px;margin-bottom:10px}
+.feat h3{font-size:17px;margin-bottom:5px;font-weight:800;color:var(--ink)}
+.feat p{color:var(--ink-soft);font-size:15px}
+
+  
+  
+/* ---------- FOUNDER ---------- */
+.founder{
+  background:#fff;border:1px solid var(--line);border-radius:24px;
+  padding:32px;box-shadow:var(--shadow-lg);
+  display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start;
+}
+.founder-photo{
+  width:120px;height:120px;border-radius:50%;flex-shrink:0;
+  background:var(--mist);border:3px solid var(--sage);
+  display:flex;align-items:center;justify-content:center;
+  overflow:hidden;
+}
+.founder-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.founder-photo-empty{font-size:12px;font-weight:700;color:var(--sage-deep);text-align:center;padding:8px}
+.founder-body{flex:1;min-width:240px}
+.founder-name{font-size:21px;font-weight:800;margin-bottom:2px;color:var(--ink)}
+.founder-title{font-size:13.5px;color:var(--sage-deep);font-weight:700;letter-spacing:.03em;margin-bottom:14px}
+.founder-body p{font-size:16px;color:var(--ink-soft)}
+.founder-more{margin-top:18px}
+.founder-more summary{
+  cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:7px;
+  font-weight:700;font-size:15px;color:var(--sage-deep);
+}
+.founder-more summary::-webkit-details-marker{display:none}
+.founder-more summary::after{content:"→";transition:transform .15s}
+.founder-more[open] summary::after{transform:rotate(90deg)}
+.founder-more-body{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.founder-more-body p{font-size:15.5px;color:var(--ink-soft);margin-bottom:10px}
+
+/* ---------- BONUS (compact, moderate) ---------- */
+.bonus{background:var(--ink);color:#E9EFE9}
+.bonus h2{color:#fff}
+.bonus .eyebrow{color:var(--gold)}
+.bonus .lede{color:#B9C7BB}
+.bonus-grid{display:grid;gap:10px}
+@media(min-width:860px){.bonus-grid{grid-template-columns:1fr 1fr 1fr}}
+.bcard{
+  background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.13);
+  border-radius:var(--r);padding:16px;
+  transition:transform .2s ease,background .2s ease;
+}
+.bcard:hover{transform:translateY(-3px);background:rgba(255,255,255,.09)}
+.btag{
+  display:inline-block;background:var(--gold);color:#2A2110;
+  font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  padding:4px 9px;border-radius:100px;margin-bottom:8px;
+}
+.bcard h3{font-size:16px;color:#fff;margin-bottom:5px;font-weight:800}
+.bcard p{color:#C5D2C7;font-size:13.5px}
+.bworth{
+  display:block;margin-top:8px;color:var(--gold);
+  font-size:12.5px;font-weight:800;letter-spacing:.03em;
+}
+
+/* ---------- BONUS VISUALS ---------- */
+.bonus-visual{margin:9px 0 2px}
+
+/* Bonus 1: 7-day checklist row */
+.day-row{display:flex;gap:5px;flex-wrap:wrap}
+.day-box{
+  width:27px;height:27px;border-radius:7px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:800;color:#C5D2C7;
+  border:1.5px solid rgba(255,255,255,.25);
+  transition:transform .2s ease;
+}
+.bcard:hover .day-box{transform:translateY(-2px)}
+.day-box.checked{
+  background:var(--gold);border-color:var(--gold);color:#2A2110;
+}
+
+/* Bonus 2: sleep checklist lines */
+.sleep-line{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.sleep-line .tick{
+  width:16px;height:16px;border-radius:50%;flex-shrink:0;
+  background:var(--gold);color:#2A2110;font-size:10px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+}
+.sleep-line .tick.empty{background:transparent;border:1.5px solid rgba(255,255,255,.3)}
+.sleep-line .bar{height:6px;border-radius:4px;background:rgba(255,255,255,.18);flex:1}
+.sleep-line .bar.short{max-width:60%}
+
+/* Bonus 3: scenario icon grid */
+.script-icons{display:flex;flex-wrap:wrap;gap:8px}
+.script-icon{
+  width:34px;height:34px;border-radius:10px;
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
+  display:flex;align-items:center;justify-content:center;font-size:16px;
+  transition:transform .2s ease,background .2s ease;
+}
+.bcard:hover .script-icon{transform:scale(1.06)}
+
+/* ---------- OFFER (10% smaller) ---------- */
+.offer{background:var(--mist)}
+.stack{
+  background:#fff;border-radius:var(--r);padding:7px 22px 22px;
+  box-shadow:var(--shadow-lg);border:1px solid var(--line);
+  max-width:560px;margin:0 auto;
+}
+.row{
+  display:flex;justify-content:space-between;gap:13px;align-items:baseline;
+  padding:13px 0;border-bottom:1px dashed var(--line);font-size:15px;
+}
+.row span:last-child{color:var(--ink-soft);white-space:nowrap;font-variant-numeric:tabular-nums}
+.row.total{border-bottom:none;font-weight:800;font-size:16px;padding-top:16px}
+.row.total span:last-child{color:var(--ink);text-decoration:line-through;opacity:.55}
+.price-final{
+  text-align:center;margin-top:20px;padding-top:22px;border-top:2px solid var(--ink);
+}
+.price-final .lbl{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--sage-deep)}
+.price-final .amt{
+  font-size:54px;font-weight:800;
+  line-height:1;margin:7px 0 4px;letter-spacing:-.03em;
+}
+.price-final .once{font-size:13px;color:var(--ink-soft)}
+.offer-urgency{
+  display:inline-block;margin-top:14px;background:var(--gold-soft);
+  color:#4B4023;font-size:12px;font-weight:800;
+  padding:8px 14px;border-radius:100px;border:1px solid rgba(192,152,43,.35);
+}
+.compare{margin-top:25px;max-width:560px;margin-left:auto;margin-right:auto}
+.compare div{
+  display:flex;justify-content:space-between;padding:10px 0;
+  border-bottom:1px solid var(--line);font-size:14.5px;
+}
+.compare div:last-child{border-bottom:none;font-weight:800;color:var(--sage-deep)}
+/* ---------- URGENCY ---------- */
+.urgency{
+  background:var(--gold-soft);border-radius:var(--r);padding:26px;
+}
+.urgency h3{font-size:21px;margin-bottom:12px;font-weight:800;color:var(--ink)}
+.urgency p{font-size:16.5px;color:#4B4023}
+.urgency p+p{margin-top:14px}
+
+/* ---------- FAQ ---------- */
+.faq-grid{display:grid;gap:10px}
+@media(min-width:900px){.faq-grid{grid-template-columns:1fr 1fr;gap:10px 16px}}
+details{
+  background:#fff;border:1px solid var(--line);border-radius:14px;
+  padding:0 20px;box-shadow:var(--shadow);align-self:start;
+}
+summary{
+  cursor:pointer;list-style:none;padding:17px 0;
+  font-weight:700;font-size:16.5px;display:flex;justify-content:space-between;gap:14px;
+  color:var(--ink);
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--sage);font-size:22px;line-height:1;font-weight:400}
+details[open] summary::after{content:"–"}
+details p{padding:0 0 18px;color:var(--ink-soft);font-size:16px}
+
+/* ---------- FINAL ---------- */
+.final{background:var(--ink);color:#E9EFE9;text-align:center}
+.final h2{color:#fff;font-size:clamp(26px,5.6vw,38px)}
+.final p{color:#C5D2C7;max-width:520px;margin:16px auto 0;font-size:17.5px}
+.final .btn{background:var(--gold);color:#2A2110;margin-top:32px}
+.final .btn:hover{background:#D4AC35}
+.final .btn-note{color:#9DAE9F}
+.final .price-tag{
+  display:inline-block;margin-top:22px;font-size:15px;font-weight:700;
+  color:var(--gold-soft);
+}
+.final .price-tag b{font-size:19px;color:#fff}
+
+/* ---------- FOOTER ---------- */
+footer{background:#1A2720;color:#93A395;font-size:13.5px;padding:40px 0}
+footer a{color:#B9C7BB}
+.flinks{display:flex;flex-wrap:wrap;gap:8px 18px;margin-bottom:22px}
+.safety{
+  background:rgba(255,255,255,.05);border-left:3px solid var(--sage);
+  padding:16px 18px;border-radius:8px;margin-bottom:20px;line-height:1.6;
+}
+.safety b{color:#fff}
+.fine{font-size:12.5px;line-height:1.6;opacity:.8}
+  
+/* ---------- STICKY BAR (dot appears every 12s) ---------- */
+.sticky{
+  position:fixed;bottom:0;left:0;right:0;z-index:50;
+  background:rgba(251,248,241,.97);backdrop-filter:blur(10px);
+  border-top:1px solid var(--line);
+  padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12.5px;
+}
+.burst{
+  --burst-red:#D93A3A;
+  width:70px;height:70px;flex-shrink:0;
+  background:var(--burst-red);
+  clip-path:polygon(50.0% 0.0%, 59.8% 13.3%, 75.0% 6.7%, 76.9% 23.1%, 93.3% 25.0%, 86.7% 40.2%, 100.0% 50.0%, 86.7% 59.8%, 93.3% 75.0%, 76.9% 76.9%, 75.0% 93.3%, 59.8% 86.7%, 50.0% 100.0%, 40.2% 86.7%, 25.0% 93.3%, 23.1% 76.9%, 6.7% 75.0%, 13.3% 59.8%, 0.0% 50.0%, 13.3% 40.2%, 6.7% 25.0%, 23.1% 23.1%, 25.0% 6.7%, 40.2% 13.3%);
+  display:flex;align-items:center;justify-content:center;
+  text-decoration:none;transform:rotate(-6deg);
+  animation:burst-pulse 2.4s ease-in-out infinite;
+  cursor:pointer;
+}
+.burst-text{
+  color:#fff;font-weight:800;font-size:8.5px;line-height:1.25;
+  text-align:center;text-transform:uppercase;letter-spacing:.01em;
+  transform:rotate(6deg);width:50px;
+}
+@keyframes burst-pulse{
+  0%,100%{transform:rotate(-6deg) scale(1)}
+  50%{transform:rotate(-6deg) scale(1.22)}
+}
+@media(prefers-reduced-motion:reduce){.burst{animation:none}}
+
+.sticky .btn{
+  font-size:14.5px;padding:12px 22px;box-shadow:none;
+  position:relative;z-index:0;overflow:visible;
+}
+.sticky .btn::after{
+  content:"";
+  position:absolute;
+  width:6px;height:6px;
+  background:#fff;
+  border-radius:50%;
+  opacity:0;
+  box-shadow:0 0 5px 2px rgba(255,255,255,.9), 0 0 2px rgba(255,255,255,1);
+  transform:translate(-50%,-50%);
+  animation:dot-trace 12s linear infinite;
+  pointer-events:none;
+}
+@keyframes dot-trace{
+  0%    { left:0%;   top:0%;   opacity:0; }
+  1%    { opacity:1; }
+  8.3%  { left:100%; top:0%;   opacity:1; }
+  16.6% { left:100%; top:100%; opacity:1; }
+  25%   { left:0%;   top:100%; opacity:1; }
+  33%   { left:0%;   top:0%;   opacity:1; }
+  34%   { opacity:0; }
+  100%  { opacity:0; }
+}
+@media(prefers-reduced-motion:reduce){.sticky .btn::after{animation:none}}
+  
+/* ---------- DESKTOP WIDER SECTIONS ---------- */
+@media(min-width:860px){
+  section{padding:76px 0}
+  .problem .wrap{max-width:900px}
+  .bonus .wrap{max-width:1000px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="logo">Steady<span>.</span></div>
+  <div class="nav-tag">Your anxiety buddy</div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <h1> <em>Heart</em> Racing? <em>Mind</em> Won't <em>Stop</em>?</h1>
+   
+    <p >Check out <strong> Steady</strong>- Now!<p>
+  </div>
+</header>
+
+  <!-- ============ SOLUTION — STARTS RIGHT AWAY ============ -->
+<section id="solution" class="dark-section">
+  <div class="wrap-wide">
+    <p class="eyebrow">Meet Steady.</p>
+    <h2><span class="highlight-gold">Choose What You’re Feeling.</span> Find What Helps You Through It.</h2>
+  <!--   <p class="lede">Tell Steady how you're feeling and get a technique picked for that moment.</p> -->
+  
+    <div class="demo">
+      <p class="demo-label">Tap a symptom below to try it yourself ↓</p>
+      <div class="chips">
+        <span class="chip active">💓 Racing heart</span>
+        <span class="chip">😮‍💨 Can't breathe</span>
+        <span class="chip">🌀 Mind won't stop</span>
+        <span class="chip">🫨 Shaking</span>
+        <span class="chip">😣 Chest tightness</span>
+        <span class="chip">🤢 Nausea</span>
+        <span class="chip">😖 Restless</span>
+        <span class="chip">😴 Can't sleep</span>
+      </div>
+      <div class="arrow-down">↓</div>
+      <p class="demo-label">Steady's match, in under a second</p>
+      <div class="match-card">
+        <div class="match-ico"><span class="emoji-breath">🫁</span></div>
+        <div>
+          <h4>4-7-8 Breathing</h4>
+          <p>Best for a racing heart — this pattern slows your pulse within 60 seconds by activating your body's natural "rest" response.</p>
+        </div>
+      </div>
+     <div>
+      <p class="demo-label">That was just ONE technique.</p>
+     </div>
+      <!--<p style="color: black" style="fontsize: 16px;"> <strong>Scroll to discover</strong> everything you’ll have in <strong>your toolkit.</strong> ↓</p-->
+    
+    </div>
+    <p>  </p>
+    <h2> Scroll to <span class="highlight-gold">discover everything you’ll have in your toolkit.</span></h2>
+  </div>
+</section>
+
+  <!--  inside the toolkit -->
+<section>
+  <div class="wrap-wide">
+<!--    <p class="eyebrow">Inside the toolkit</p> -->
+    <h2>The same tools <span class="highlight-gold">therapists</span> use — now <span class="highlight-gold">in your pocket</span></h2>
+    <p></p>
+    <div class="tech-carousel">
+      <div class="tech-track">
+
+        <div class="techcard is-active">
+          <div class="techcard-head">
+            <div class="tech-ico"><span class="emoji-breath">🫁</span></div>
+            <div>
+              <span class="clinical-badge">Used in clinical anxiety treatment</span>
+              <h3>Breathing Techniques</h3>
+              <p class="tsub">3 breathing techniques — your body's built-in off-switch for a racing heart</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="techcard">
+          <div class="techcard-head">
+            <div class="tech-ico">🧊</div>
+            <div>
+              <span class="clinical-badge">Standard trauma-therapy technique</span>
+              <h3>5-4-3-2-1 Grounding</h3>
+              <p class="tsub">The exact method therapists use to pull someone out of a spiral</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="techcard">
+          <div class="techcard-head">
+            <div class="tech-ico">💪</div>
+            <div>
+              <span class="clinical-badge">Used in hospitals before surgery</span>
+              <h3>Progressive Muscle Relaxation</h3>
+              <p class="tsub">A century-old clinical method your body can't argue with</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="techcard">
+          <div class="techcard-head">
+            <div class="tech-ico">🌿</div>
+            <div>
+              <span class="clinical-badge">Backed by decades of clinical research</span>
+              <h3>Body Scan Meditation</h3>
+              <p class="tsub">The technique behind hospital stress-reduction programs worldwide</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="techcard">
+          <div class="techcard-head">
+            <div class="tech-ico">🔄</div>
+            <div>
+              <span class="clinical-badge">The core method behind CBT</span>
+              <h3>Thought Reframing</h3>
+              <p class="tsub">The single most recommended anxiety therapy in the world — simplified</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="techcard">
+          <div class="techcard-head">
+            <div class="tech-ico">✍️</div>
+            <div>
+              <span class="clinical-badge">Backed by published research</span>
+              <h3>Guided Journaling</h3>
+              <p class="tsub">Why "getting it out" is a real, measurable technique</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="techcard">
+          <div class="techcard-head">
+            <div class="tech-ico">🚶</div>
+            <div>
+              <span class="clinical-badge">Somatic release, used in trauma-informed therapy</span>
+              <h3>Movement Reset</h3>
+              <p class="tsub">Because anxiety doesn't only live in your head</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="techcard">
+          <div class="techcard-head">
+            <div class="tech-ico">🎧</div>
+            <div>
+              <span class="clinical-badge">Built on real sound-therapy principles</span>
+              <h3>Calming Sounds</h3>
+              <p class="tsub">Engineered to shift your state, not just fill silence</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tech-nav">
+        <span class="tech-dots"></span>
+        <button type="button" class="tech-prev" aria-label="Previous technique">← Prev</button>
+        <button type="button" class="tech-next" aria-label="Next technique">Next →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .tech-carousel { position: relative; }
+
+  .tech-track {
+    position: relative;
+    min-height: 140px; /* adjust to your tallest card */
+  }
+
+  .techcard {
+    display: none;
+    opacity: 0;
+    transform: translateX(12px);
+    transition: opacity .25s ease, transform .25s ease;
+  }
+
+  .techcard.is-active {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .tech-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 22px;
+  }
+
+  .tech-prev, .tech-next {
+    min-width: 96px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: 1.5px solid var(--line, rgba(0,0,0,.15));
+    background: #fff;
+    color: var(--ink, #222);
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 0 rgba(0,0,0,.08), 0 4px 10px rgba(0,0,0,.10);
+    transition: transform .15s ease, box-shadow .15s ease, border-color .2s ease;
+  }
+
+  .tech-prev:hover, .tech-next:hover {
+    border-color: var(--sage-deep, #3F4A33);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 0 rgba(0,0,0,.08), 0 8px 16px rgba(0,0,0,.14);
+  }
+
+  .tech-prev:active, .tech-next:active {
+    transform: translateY(1px);
+    box-shadow: 0 0 0 rgba(0,0,0,.08), 0 2px 6px rgba(0,0,0,.12);
+    background: rgba(0,0,0,.03);
+  }
+
+  .tech-dots {
+    display: flex;
+    gap: 6px;
+  }
+  .tech-dots span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.2);
+    display: inline-block;
+    cursor: pointer;
+    transition: background .2s ease, transform .2s ease;
+  }
+  .tech-dots span.is-active {
+    background: currentColor;
+    transform: scale(1.3);
+  }
+</style>
+  
+<script>
+(function () {
+  const track  = document.querySelector('.tech-track');
+  const cards  = Array.from(track.querySelectorAll('.techcard'));
+  const nextBtn = document.querySelector('.tech-next');
+  const prevBtn = document.querySelector('.tech-prev');
+  const dotsWrap = document.querySelector('.tech-dots');
+  let i = 0;
+
+  // build dots
+  cards.forEach((_, idx) => {
+    const d = document.createElement('span');
+    if (idx === 0) d.classList.add('is-active');
+    d.addEventListener('click', () => go(idx));
+    dotsWrap.appendChild(d);
+  });
+  const dots = Array.from(dotsWrap.children);
+
+  function go(idx) {
+    cards[i].classList.remove('is-active');
+    dots[i].classList.remove('is-active');
+    i = (idx + cards.length) % cards.length;
+    cards[i].classList.add('is-active');
+    dots[i].classList.add('is-active');
+  }
+
+  nextBtn.addEventListener('click', () => go(i + 1));
+  prevBtn.addEventListener('click', () => go(i - 1));
+})();
+</script>
+
+  <!-- ============ SCREENSHOT SHOWCASE ============ -->
+<section style="background:var(--mist)">
+  <div class="wrap-wide">
+  
+    <h2>See What’s Inside Steady</h2>
+    <p class="lede">A sneak peak inside Steady</p>
+
+    <div class="screens-carousel">
+      <div class="screens-track">
+        <div class="screen-card is-active">
+          <img src="images/screen-symptoms.jpg" alt="Steady symptom selection screen">
+         </div>
+        <div class="screen-card">
+          <img src="images/screen-toolkit.jpg" alt="Steady toolkit screen showing multiple techniques">
+         </div>
+         <div class="screen-card">
+          <img src="images/IMG_1.jpg" alt="Steady IMG1">
+         </div>
+        <div class="screen-card">
+          <img src="images/IMG_2.jpg" alt="Steady IMG2">
+         </div>
+        <div class="screen-card">
+          <img src="images/IMG_3.jpg" alt="Steady IMG3">
+         </div>
+        <div class="screen-card">
+          <img src="images/IMG_4.jpg" alt="Steady IMG4">
+         </div>
+        <div class="screen-card">
+          <img src="images/screen-checkin.jpg" alt="Steady mood check-in screen">
+         </div>
+        <div class="screen-card">
+          <img src="images/screen-patterns.jpg" alt="Steady anxiety pattern insights screen">
+          </div>
+        <div class="screen-card">
+          <img src="images/screen-export.jpg" alt="Steady PDF export screen">
+           </div>
+      </div>
+
+      <div class="screens-nav">
+        <button type="button" class="screens-prev" aria-label="Previous screenshot">← Prev</button>
+        <span class="screens-dots"></span>
+        <button type="button" class="screens-next" aria-label="Next screenshot">Next →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .screens-carousel { position: relative; }
+
+  .screens-track {
+    position: relative;
+    min-height: 320px; /* adjust to your tallest screenshot + caption */
+  }
+
+  .screen-card {
+    display: none;
+    opacity: 0;
+    transform: translateX(12px);
+    transition: opacity .25s ease, transform .25s ease;
+    width: clamp(50%, 65%, 75%);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .screen-card.is-active {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .screen-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: var(--shadow-lg, 0 8px 24px rgba(0,0,0,.12));
+    display: block;
+  }
+
+  .screen-card p {
+    margin-top: 14px;
+    font-size: 14.5px;
+    color: var(--ink-soft, #555);
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .screens-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 22px;
+  }
+
+  .screens-prev, .screens-next {
+    min-width: 96px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: 1.5px solid var(--line, rgba(0,0,0,.15));
+    background: #fff;
+    color: var(--ink, #222);
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 0 rgba(0,0,0,.08), 0 4px 10px rgba(0,0,0,.10);
+    transition: transform .15s ease, box-shadow .15s ease, border-color .2s ease;
+  }
+
+  .screens-prev:hover, .screens-next:hover {
+    border-color: var(--sage-deep, #3F4A33);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 0 rgba(0,0,0,.08), 0 8px 16px rgba(0,0,0,.14);
+  }
+
+  .screens-prev:active, .screens-next:active {
+    transform: translateY(1px);
+    box-shadow: 0 0 0 rgba(0,0,0,.08), 0 2px 6px rgba(0,0,0,.12);
+    background: rgba(0,0,0,.03);
+  }
+
+  .screens-dots {
+    display: flex;
+    gap: 6px;
+  }
+  .screens-dots span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.2);
+    display: inline-block;
+    cursor: pointer;
+    transition: background .2s ease, transform .2s ease;
+  }
+  .screens-dots span.is-active {
+    background: var(--sage-deep, #3F4A33);
+    transform: scale(1.3);
+  }
+</style>
+
+<script>
+(function () {
+  const track   = document.querySelector('.screens-track');
+  const cards   = Array.from(track.querySelectorAll('.screen-card'));
+  const nextBtn = document.querySelector('.screens-next');
+  const prevBtn = document.querySelector('.screens-prev');
+  const dotsWrap = document.querySelector('.screens-dots');
+  let i = 0;
+
+  cards.forEach((_, idx) => {
+    const d = document.createElement('span');
+    if (idx === 0) d.classList.add('is-active');
+    d.addEventListener('click', () => go(idx));
+    dotsWrap.appendChild(d);
+  });
+  const dots = Array.from(dotsWrap.children);
+
+  function go(idx) {
+    cards[i].classList.remove('is-active');
+    dots[i].classList.remove('is-active');
+    i = (idx + cards.length) % cards.length;
+    cards[i].classList.add('is-active');
+    dots[i].classList.add('is-active');
+  }
+
+  nextBtn.addEventListener('click', () => go(i + 1));
+  prevBtn.addEventListener('click', () => go(i - 1));
+})();
+</script>
+
+  
+  <!-- Benefits -->
+
+  
+<section class="dark-section">
+  <div class="wrap-wide">
+  <!--  <p class="eyebrow">What actually changes</p> -->
+    <h2> <span class="highlight-gold">Two Weeks</span> From Now, YOU Could Feel Different</h2>
+    <div style="height:22px"></div>
+    <div class="benefit-hero-grid two-col-always">
+      <div class="benefit-hero">
+       <!--  <div class="bh-ico">🫂</div> -->
+        <h3> <span class="bh-ico">🫂</span>     You <span class="highlight-gold">stop feeling helpless</span> during panic</h3>
+       <!--    <p style="font-size: 12px;">Finally, You know EXACTLY what to <em>do</em> instead of just waiting it out.</p> -->
+      </div>
+      <div class="benefit-hero">
+        <!-- <div class="bh-ico">🌙</div> -->
+        <h3><span class="bh-ico">🌙     </span>     You <span class="highlight-gold">fall asleep faster</span></h3>
+        <!--   <p style="font-size: 12px;">Instead of lying awake replaying conversations at 2 AM.</p> -->
+      </div>
+      <div class="benefit-hero">
+        <!-- <div class="bh-ico">💚</div> -->
+        <h3><span class="bh-ico">💚</span>     You <span class="highlight-gold">feel less alone</span></h3>
+         <!--  <p style="font-size: 12px;"><em>Steady</em> will always be there 12 AM, 3 AM, 5 AM, even when no one else is.</p> -->
+      </div>
+      <div class="benefit-hero">
+         <!--<div class="bh-ico">💸</div> -->
+        <h3><span class="bh-ico">💸</span>     You <span class="highlight-gold">save thousands of rupees</span></h3>
+          <!-- <p style="font-size: 12px;">This costs less than one cab ride — not one therapy session.</p> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--<style>
+   Force 2 columns at every breakpoint, overriding any mobile stacking rule 
+  .benefit-hero-grid.two-col-always {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px;
+  }
+
+  @media (max-width: 480px) {
+    .benefit-hero-grid.two-col-always {
+      gap: 8px;
+    }
+    .benefit-hero-grid.two-col-always .benefit-hero {
+      padding: 12px 10px; /* tighten padding so 2 columns fit comfortably */
+    }
+    .benefit-hero-grid.two-col-always .bh-ico {
+      font-size: 20px; /* shrink icon a bit if it was scaled up on mobile */
+    }
+    .benefit-hero-grid.two-col-always h3 {
+      font-size: 14px;
+      line-height: 1.3;
+    }
+  }
+</style>-->
+  
+<!-- ============ GUARANTEE ============ -->
+<section class="guarantee">
+  <div class="wrap">
+    <div class="g-badge">🛡️</div>
+    <h3>Try It Risk-Free For 7 Days</h3>
+    <p>Use Steady for 7 days. Not feeling it? Get a <strong>100% refund on day 8 - no questions asked.</strong></p>
+    <p class="g-sub">You either <strong>feel better, or you get your money back.</strong> There's no version of this where you lose.</p>
+    <a href="#buy" class="g-cta">Start Your Risk-Free 7 Days →</a>
+  </div>
+</section>
+
+<style>
+  .guarantee {
+    text-align: center;
+    padding: 32px 16px;
+    background: var(--cream, #FBF8F1);
+    border: 2px solid var(--sage, #A9BFA0);
+    border-radius: 20px;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .g-badge {
+    font-size: 34px;
+    margin-bottom: 8px;
+  }
+  .guarantee h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 0 8px;
+    color: var(--ink, #222);
+  }
+  .guarantee p {
+    font-size: 14.5px;
+    line-height: 1.5;
+    margin: 0 0 6px;
+    color: var(--ink-soft, #555);
+  }
+  .guarantee .g-sub {
+    font-size: 13px;
+    font-style: italic;
+    opacity: 0.85;
+    margin-bottom: 18px;
+  }
+  .g-cta {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 13px 26px;
+    background: var(--sage-deep, #3F4A33);
+    color: #fff;
+    font-weight: 800;
+    font-size: 14.5px;
+    text-decoration: none;
+    border-radius: 100px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .g-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,.2);
+  }
+  .g-cta:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 6px rgba(0,0,0,.12);
+  }
+</style>
+
+<!-- ============ BONUSES ============ -->
+<section class="bonus">
+  <div class="wrap">
+    <p class="eyebrow">Included free with steady</p>
+    <h2>3 Bonuses </h2>
+     <p class="lede">for the moments anxiety hits hardest</p>
+
+    <div class="bonus-grid">
+      <div class="bcard">
+        <span class="btag">Bonus 1 · Excel sheet</span>
+        <h3>The 7-Day Calm Reset Tracker</h3>
+        <div class="bonus-visual">
+          <div class="day-row">
+            <span class="day-box checked">M</span>
+            <span class="day-box checked">T</span>
+            <span class="day-box checked">W</span>
+            <span class="day-box checked">T</span>
+            <span class="day-box">F</span>
+            <span class="day-box">S</span>
+            <span class="day-box">S</span>
+          </div>
+        </div>
+        <span class="bworth">Worth ₹199 — yours free</span>
+          <!--<p class="lede">A simple checklist to actually build the habit.</p>-->
+          </div>
+      
+      <div class="bcard">
+        <span class="btag">Bonus 2 · Printable PDF</span>
+        <h3>Sleep Without the Spiral</h3>
+        <div class="bonus-visual">
+          <div class="sleep-line"><span class="tick">✓</span><span class="bar"></span></div>
+          <div class="sleep-line"><span class="tick">✓</span><span class="bar short"></span></div>
+          <div class="sleep-line"><span class="tick">✓</span><span class="bar"></span></div>
+          <div class="sleep-line"><span class="tick empty"></span><span class="bar short"></span></div>
+          <div></div>
+        </div>
+        <span class="bworth">Worth ₹149 — yours free</span>
+           <!-- <p style="font-size: 16px;">Use this simple nighttime checklist when your brain won't stop replaying, worrying, and overthinking.</p>-->
+      </div>
+
+      <div class="bcard">
+        <span class="btag">Bonus 3 · PDF</span>
+        <h3>Panic Button Scripts</h3>
+        <div class="bonus-visual">
+          <div class="script-icons">
+            <span class="script-icon" title="Work">💼</span>
+            <span class="script-icon" title="Public">🏙️</span>
+            <span class="script-icon" title="Night">🌙</span>
+            <span class="script-icon" title="Presentation">🎤</span>
+            <span class="script-icon" title="Argument">😠</span>
+            <span class="script-icon" title="Alone">🧍</span>
+          </div>
+        </div>
+        <span class="bworth">Worth ₹199 — yours free</span>
+         <!-- <p class="lede">Know exactly what to tell yourself when panic hit</p>-->
+         </div>
+    </div>
+  </div>
+</section>
+
+  
+<!-- ============ urgency offer ============ 
+<div class="box">
+  <div class="line1">Offer valid only for the first 100 users!</div>
+</div>-->
+
+
+
+  
+<!-- ============ OFFER ============ -->
+ 
+<section class="offer offer-compact">
+   <div id="buy" class="checkout-trigger">
+ 
+</div>
+  <div class="wrap">
+    <div class="line1">Offer valid for the first 100 users Only!</div>
+
+
+    <div class="stack">
+      <div class="row" style="fontsize:16px"><span>✅ Steady — full app, lifetime access</span><span>₹999</span></div>
+      <div class="row" style="fontsize:16px"><span>🎁 7-Day Calm Reset Tracker</span><span>₹199</span></div>
+      <div class="row" style="fontsize:16px"><span>🎁 Sleep Without the Spiral</span><span>₹149</span></div>
+      <div class="row" style="fontsize:16px"><span>🎁 Panic Button Scripts</span><span>₹199</span></div>
+      <div class="row total"><span>Total value</span><span>₹1,546</span></div>
+
+      <div class="price-final">
+        <p class="lbl">Your price today</p>
+        <p class="amt">₹149</p>
+       <!-- <p class="once">One time. No subscription. No renewal.</p> -->
+        <div class="box">
+           <div  class="line2"><span id="count">21</span> seats left</div>
+        </div>
+
+
+        <p style="margin-top:20px">
+
+
+          
+        <script>
+  let count = 21;
+  const minCount = 3; // never hits zero
+  const el = document.getElementById('count');
+
+  function scheduleNext() {
+    const delay = (7 + Math.random() * 13) * 1000; // 7–20s, non-uniform
+    setTimeout(() => {
+      if (count > minCount) {
+        count -= 1;
+        el.textContent = count;
+      }
+      scheduleNext();
+    }, delay);
+  }
+
+  scheduleNext();
+</script> 
+  <form>
+    <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_TVXjpAjyNq1uol" async></script>
+  </form>
+ <div class="offer-urgency"> Use for 7 Days. Don't like it? 100% Refund on Day 8. No Questions Asked. </div>
+          <span class="btn-note">Instant access · UPI, cards, netbanking · refund available on day 8</span>
+        </p>
+        <!-- ============================================================ -->
+      </div>
+    </div>
+
+    <div class="compare">
+      <p class="eyebrow" style="margin-top:30px;text-align:center">Why this is a no-brainer</p>
+      <div><span>One therapy session in India</span><span>₹1,500–₹2,500</span></div>
+      <div><span>One month of anxiety medication</span><span>₹400–₹800</span></div>
+      <div><span>Steady — yours to use every day</span><span>₹149</span></div>
+    </div>
+   <!-- <p style="margin-top:24px;text-align:center;color:var(--sage-deep);font-weight:700;font-size:16px">You don't need another app, another book, or another "maybe I'll try this later." You need one thing that actually works when it matters — this is it.</p>-->
+  </div>
+</section>
+
+<!-- ============ URGENCY ============ -->
+<section>
+  <div class="wrap">
+    <div class="urgency">
+      <h3>Why now, and not "someday"</h3>
+      <p> <strong>₹149 is a launch price</strong> for first 100 Users. Then, 499 for good.</p>
+      <p>Not buying today doesn't cost you ₹149. <strong>It costs you another two weeks of 2 AM panic</strong> with nothing to reach for.</p>
+    </div>
+  </div>
+</section>
+
+  
+<!-- ============ FAQ ============ -->
+<section class="dark-section">
+  <div class="wrap-wide">
+    <p class="eyebrow">Questions</p>
+    <h2>Everything you might be wondering</h2>
+    <div style="height:22px"></div>
+
+    <div class="faq-grid">
+       <details open><summary>How will I get the Refund? Is it Guaranteed?</summary><p>Yes, 100% Guaranteed Refund on 8th Day. Use Steady for 7 Days, get 100% Refund on Day 8 . without any questions asked. Just send a copy of your receipt on steady.helpdesk@gmail.com, requesting a Refund and get refund within 24 hours.</p></details>
+      <details open><summary>I've never done meditation or therapy. Will I understand this?</summary><p>Yes. There's nothing to learn — you tap what you're feeling and a voice guides you. If you can use WhatsApp, you can use Steady.</p></details>
+      <details><summary>Do I need to download an app?</summary><p>No. Steady opens in your phone's browser, or on a laptop. You can save it to your home screen so it opens like a normal app.</p></details>
+      <details><summary>How much time does it take daily?</summary><p>As little as 3 minutes. Some techniques take 60 seconds.</p></details>
+      <details><summary>Will my data be private?</summary><p>Yes. You sign in securely with Google, and your entries are visible only to you.</p></details>
+      <details><summary>How long do I get access?</summary><p>Lifetime access to the app and all 3 bonuses. One payment, no renewal charges.</p></details>
+      <details><summary>When do I get the bonuses?</summary><p>Immediately — the moment your payment goes through.</p></details>
+      <details><summary>Is this a replacement for a doctor or therapist?</summary><p>No. Steady is a self-help tool. If your anxiety is affecting your daily life, please also see a qualified mental health professional — many people use Steady alongside therapy.</p></details>
+      <details><summary>What if it doesn't work for me?</summary><p>Use Steady for 7 days first — anxiety tools need a little time to actually help. On day 8, if it hasn't worked for you, email and you'll get a full refund.</p></details>
+      <details><summary>I'm not sure if what I have is "real" anxiety.</summary><p>You don't need a diagnosis to deserve help.</p></details>
+      <details><summary>Can I buy it for someone else?</summary><p>Yes. Many people buy it for a child, parent or friend they're worried about.</p></details>
+      <details><summary>How do I contact you if something goes wrong?</summary><p>Email <a href="mailto:steady.helpdesk@gmail.com">steady.helpdesk@gmail.com</a> — a real person replies within 24 hours.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL ============ -->
+<section class="final">
+  <div class="wrap">
+    <h2>One last thing.</h2>
+    <p>Think about the last time anxiety hit you hard. You handled it alone.</p>
+    <p>Somewhere tonight, around 1 AM, your heart is going to start racing again, or your mind is going to spiral into a conversation that hasn't even happened yet. That's not a maybe — it's just what's been happening. The only question is whether you'll have something to reach for when it does.</p>
+    <p class="price-tag">Today's price: <b>₹149</b></p>
+    <p><a href="#buy" class="btn">Get Steady now</a>
+    <span class="btn-note">Instant access · Use it for 7 days · refund available on day 8 · Made in India, for us</span></p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="flinks">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+      <a href="refund.html">Refund Policy</a>
+      <a href="delivery.html">Delivery Policy</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="about.html">About</a>
+    </div>
+
+    <div class="safety">
+      <b>Mental health notice.</b> Steady is a self-help wellness tool. It is not a medical device and is not a substitute for professional mental health care.<br><br>
+      If you are in distress or having thoughts of harming yourself, please reach out for immediate human support — <b>Tele-MANAS (Government of India): 14416 or 1800-891-4416.</b> Free, 24×7, available in multiple Indian languages.
+    </div>
+
+    <p class="fine">
+      © <span id="yr">2026</span> Steady. All rights reserved.<br>
+      Steady and its bonus materials are copyrighted digital products licensed for personal, single-user use only. Redistribution, resale, sharing of access links, or reproduction in any form is not permitted.<br><br>
+      Contact: steady.helpdesk@gmail.com
+    </p>
+  </div>
+</footer>
+
+
+<!-- ============ STICKY BAR ============ -->
+<div class="sticky">
+  
+    
+ <a href="#buy" class="burst" aria-label="See exclusive bonuses and offer">
+    <span class="burst-text">Exclusively<br>@149</span>
+  </a>
+  <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_TVXjpAjyNq1uol" async> </script> </form>
+ 
+
+</div>
+
+  <script>
+  
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+// Best-effort check: does this device render the lungs emoji (🫁) properly,
+// or does it show as a blank "tofu" box? If unsupported, swap to 💨 instead.
+// This is a heuristic (canvas width comparison) — not 100% guaranteed on every
+// browser, but 🫁 stays as the real default everywhere unless this actively
+// detects a problem.
+function getBreathEmoji(){
+  try{
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    ctx.font = '32px sans-serif';
+    var fallbackWidth = ctx.measureText('\uFFFF').width; // width of a guaranteed-unsupported codepoint
+    var testWidth = ctx.measureText('🫁').width;
+    var supported = Math.abs(testWidth - fallbackWidth) > 2;
+    return supported ? '🫁' : '💨';
+  }catch(e){
+    return '🫁'; // if detection itself fails, keep the real default
+  }
+}
+var BREATH_EMOJI = getBreathEmoji();
+document.querySelectorAll('.emoji-breath').forEach(function(el){
+  el.textContent = BREATH_EMOJI;
+});
+
+// Symptom-matching demo — clickable chips
+(function(){
+  var chips = document.querySelectorAll('.chips .chip');
+  var matches = [
+    {ico:'🫁',h:'4-7-8 Breathing',p:"Best for a racing heart — this pattern slows your pulse within 60 seconds by activating your body's natural \"rest\" response."},
+    {ico:'🫁',h:'Box Breathing',p:'Best when you feel breathless — a steady 4-4-4-4 count brings your breathing back under control.'},
+    {ico:'🧊',h:'5-4-3-2-1 Grounding',p:'Best for a racing mind — pulls your attention back into the room, one sense at a time.'},
+    {ico:'💪',h:'Progressive Muscle Relaxation',p:'Best for shaking or tension — tense and release each muscle group until your body physically lets go.'},
+    {ico:'🌿',h:'Belly Breathing',p:'Best for chest tightness — slow, deep breaths into the stomach ease the pressure fast.'},
+    {ico:'🧊',h:'Grounding + Calm Sounds',p:'Best for nausea from anxiety — gentle grounding paired with soft ambient sound.'},
+    {ico:'🚶',h:'Movement Reset',p:"Best for restlessness — sometimes your body needs to move before it can sit still."},
+    {ico:'🌿',h:'Body Scan Meditation',p:'Best for sleepless nights — a slow guided scan that eases you toward rest.'}
+  ];
+  var card = document.querySelector('.match-card');
+  if(!chips.length || !card) return;
+  chips.forEach(function(chip, i){
+    chip.addEventListener('click', function(){
+      chips.forEach(function(c){c.classList.remove('active')});
+      chip.classList.add('active');
+      var m = matches[i];
+      card.querySelector('.match-ico').textContent = (m.ico === '🫁') ? BREATH_EMOJI : m.ico;
+      card.querySelector('h4').textContent = m.h;
+      card.querySelector('p').textContent = m.p;
+      // retrigger the pop-in animation every click, not just once
+      card.style.animation = 'none';
+      card.offsetHeight; // force reflow
+      card.style.animation = '';
+      var icoEl = card.querySelector('.match-ico');
+      icoEl.style.transform = 'scale(1.25) rotate(-8deg)';
+      setTimeout(function(){ icoEl.style.transform = 'scale(1) rotate(0deg)'; }, 220);
+    });
+  });
+})();
+</script>
+</body>
+</html>
