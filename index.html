@@ -531,6 +531,19 @@ footer a{color:#B9C7BB}
   100%  { opacity:0; }
 }
 @media(prefers-reduced-motion:reduce){.sticky .btn::after{animation:none}}
+  \
+/* ---------- TOP BAR ---------- */
+
+  .top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #d90429;
+    color: #fff;
+    text-align: center;
+    padding: 6px 12px;
+    font: 600 14px/1.4 Arial, sans-serif;
+  }
   
 /* ---------- DESKTOP WIDER SECTIONS ---------- */
 @media(min-width:860px){
@@ -1038,7 +1051,7 @@ footer a{color:#B9C7BB}
   }
 </style>-->
   
-<!-- ============ GUARANTEE ============ -->
+<!-- ============ GUARANTEE ============ 
 <section class="guarantee">
   <div class="wrap">
     <div class="g-badge">🛡️</div>
@@ -1047,7 +1060,7 @@ footer a{color:#B9C7BB}
     <p class="g-sub">You either <strong>feel better, or you get your money back.</strong> There's no version of this where you lose.</p>
     <a href="#buy" class="g-cta">Start Your Risk-Free 7 Days →</a>
   </div>
-</section>
+</section> 
 
 <style>
   .guarantee {
@@ -1102,7 +1115,7 @@ footer a{color:#B9C7BB}
     transform: translateY(1px);
     box-shadow: 0 2px 6px rgba(0,0,0,.12);
   }
-</style>
+</style>-->
 
 <!-- ============ BONUSES ============ -->
 <section class="bonus">
@@ -1180,7 +1193,7 @@ footer a{color:#B9C7BB}
  
 </div>
   <div class="wrap">
-    <div class="line1">Offer valid for the first 100 users Only!</div>
+    <div class="line1">Offer valid for the first 1000 users Only!</div>
 
 
     <div class="stack">
@@ -1192,35 +1205,15 @@ footer a{color:#B9C7BB}
 
       <div class="price-final">
         <p class="lbl">Your price today</p>
-        <p class="amt">₹289</p>
+        <p class="amt">₹599</p>
        <!-- <p class="once">One time. No subscription. No renewal.</p> -->
-        <div class="box">
-           <div  class="line2"><span id="count">21</span> seats left</div>
-        </div>
-
+       
 
         <p style="margin-top:20px">
 
 
           
-        <script>
-  let count = 21;
-  const minCount = 3; // never hits zero
-  const el = document.getElementById('count');
-
-  function scheduleNext() {
-    const delay = (7 + Math.random() * 13) * 1000; // 7–20s, non-uniform
-    setTimeout(() => {
-      if (count > minCount) {
-        count -= 1;
-        el.textContent = count;
-      }
-      scheduleNext();
-    }, delay);
-  }
-
-  scheduleNext();
-</script> 
+       
  <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_ThwufRrccqtFfz" async> </script> </form>
  <div class="offer-urgency"> Use for 7 Days. Don't like it? 100% Refund on Day 8. No Questions Asked. </div>
           <span class="btn-note">Instant access · UPI, cards, netbanking · refund available on day 8</span>
@@ -1244,8 +1237,8 @@ footer a{color:#B9C7BB}
   <div class="wrap">
     <div class="urgency">
       <h3>Why now, and not "someday"</h3>
-      <p> <strong>₹298 is a launch price</strong> for first 100 Users. Then, 499 for good.</p>
-      <p>Not buying today doesn't cost you ₹298 <strong>It costs you another two weeks of 2 AM panic</strong> with nothing to reach for.</p>
+      <p> <strong>₹298 is a launch price</strong> for first 1000 Users. Then, 1000 for good.</p>
+      <p>Not buying today doesn't cost you ₹599 <strong>It costs you another two weeks of 2 AM panic</strong> with nothing to reach for.</p>
     </div>
   </div>
 </section>
@@ -1259,7 +1252,6 @@ footer a{color:#B9C7BB}
     <div style="height:22px"></div>
 
     <div class="faq-grid">
-       <details open><summary>How will I get the Refund? Is it Guaranteed?</summary><p>Yes, 100% Guaranteed Refund on 8th Day. Use Steady for 7 Days, get 100% Refund on Day 8 . without any questions asked. Just send a copy of your receipt on steady.helpdesk@gmail.com, requesting a Refund and get refund within 24 hours.</p></details>
       <details open><summary>I've never done meditation or therapy. Will I understand this?</summary><p>Yes. There's nothing to learn — you tap what you're feeling and a voice guides you. If you can use WhatsApp, you can use Steady.</p></details>
       <details><summary>Do I need to download an app?</summary><p>No. Steady opens in your phone's browser, or on a laptop. You can save it to your home screen so it opens like a normal app.</p></details>
       <details><summary>How much time does it take daily?</summary><p>As little as 3 minutes. Some techniques take 60 seconds.</p></details>
@@ -1281,7 +1273,7 @@ footer a{color:#B9C7BB}
     <h2>One last thing.</h2>
     <p>Think about the last time anxiety hit you hard. You handled it alone.</p>
     <p>Somewhere tonight, around 1 AM, your heart is going to start racing again, or your mind is going to spiral into a conversation that hasn't even happened yet. That's not a maybe — it's just what's been happening. The only question is whether you'll have something to reach for when it does.</p>
-    <p class="price-tag">Today's price: <b>₹298</b></p>
+    <p class="price-tag">Today's price: <b>₹599</b></p>
     <p><a href="#buy" class="btn">Get Steady now</a>
     <span class="btn-note">Instant access · Use it for 7 days · refund available on day 8 · Made in India, for us</span></p>
   </div>
@@ -1312,13 +1304,38 @@ footer a{color:#B9C7BB}
   </div>
 </footer>
 
+<!-- ============TOP BAR ============ -->
+
+  <div class="top-bar">Only for the first 1000 users</div>
+   <div class="box">
+           <div  class="line2"><span id="count">821</span> seats left</div>
+        </div>
+
+   <script>
+  let count = 821;
+  const minCount = 3; // never hits zero
+  const el = document.getElementById('count');
+
+  function scheduleNext() {
+    const delay = (2 + Math.random() * 13) * 1000; // 7–20s, non-uniform
+    setTimeout(() => {
+      if (count > minCount) {
+        count -= 1;
+        el.textContent = count;
+      }
+      scheduleNext();
+    }, delay);
+  }
+
+  scheduleNext();
+</script> 
 
 <!-- ============ STICKY BAR ============ -->
 <div class="sticky">
   
     
  <a href="#buy" class="burst" aria-label="See exclusive bonuses and offer">
-    <span class="burst-text">Exclusively<br>@298</span>
+    <span class="burst-text">Exclusively<br>@599</span>
   </a>
  <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_ThwufRrccqtFfz" async> </script> </form>
 
