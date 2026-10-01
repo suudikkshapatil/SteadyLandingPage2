@@ -555,6 +555,34 @@ footer a{color:#B9C7BB}
 </head>
 <body>
 
+  
+<!-- ============TOP BAR ============ -->
+
+  <div class="top-bar">Only for the first 1000 users</div>
+   <div class="box">
+           <div  class="line2"><span id="count">821</span> seats left</div>
+        </div>
+
+   <script>
+  let count = 821;
+  const minCount = 3; // never hits zero
+  const el = document.getElementById('count');
+
+  function scheduleNext() {
+    const delay = (2 + Math.random() * 13) * 1000; // 7–20s, non-uniform
+    setTimeout(() => {
+      if (count > minCount) {
+        count -= 1;
+        el.textContent = count;
+      }
+      scheduleNext();
+    }, delay);
+  }
+
+  scheduleNext();
+</script> 
+
+
 <nav class="nav">
   <div class="logo">Steady<span>.</span></div>
   <div class="nav-tag">Your anxiety buddy</div>
@@ -1303,32 +1331,6 @@ footer a{color:#B9C7BB}
     </p>
   </div>
 </footer>
-
-<!-- ============TOP BAR ============ -->
-
-  <div class="top-bar">Only for the first 1000 users</div>
-   <div class="box">
-           <div  class="line2"><span id="count">821</span> seats left</div>
-        </div>
-
-   <script>
-  let count = 821;
-  const minCount = 3; // never hits zero
-  const el = document.getElementById('count');
-
-  function scheduleNext() {
-    const delay = (2 + Math.random() * 13) * 1000; // 7–20s, non-uniform
-    setTimeout(() => {
-      if (count > minCount) {
-        count -= 1;
-        el.textContent = count;
-      }
-      scheduleNext();
-    }, delay);
-  }
-
-  scheduleNext();
-</script> 
 
 <!-- ============ STICKY BAR ============ -->
 <div class="sticky">
