@@ -52,6 +52,7 @@ body{
   color:var(--ink);
   font-family:'Manrope',system-ui,-apple-system,sans-serif;
   font-size:17px;line-height:1.65;
+   padding-top:30px;     
   padding-bottom:76px;
   overflow-x:hidden;
 }
@@ -533,20 +534,24 @@ footer a{color:#B9C7BB}
 @media(prefers-reduced-motion:reduce){.sticky .btn::after{animation:none}}
   \
 /* ---------- TOP BAR ---------- */
-
 .top-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 30px;
-    z-index: 9999;
-    background: #d90429;
-    color: #fff;
-    text-align: center;
-    line-height: 30px;
-    font: 600 14px/30px Arial, sans-serif;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 9999;
+  background: #d90429;
+  color: #fff;
+  text-align: center;
+  font: 600 14px/30px Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.top-bar #count {
+  color: #fff;
+  font-weight: 800;
+}
   
 /* ---------- DESKTOP WIDER SECTIONS ---------- */
 @media(min-width:860px){
