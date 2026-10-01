@@ -534,15 +534,10 @@ footer a{color:#B9C7BB}
   \
 /* ---------- TOP BAR ---------- */
 
-  .top-bar {
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    background: #d90429;
-    color: #fff;
-    text-align: center;
-    padding: 6px 12px;
-    font: 600 14px/1.4 Arial, sans-serif;
+  .top-bar { position:fixed;top:0;left:0;right:0;z-index:50;
+  background:rgba(251,248,241,.97);backdrop-filter:blur(10px);
+  border-top:1px solid var(--line);
+  padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12.5px;
   }
   
 /* ---------- DESKTOP WIDER SECTIONS ---------- */
